@@ -1,0 +1,156 @@
+<!--
+File Name: index.html
+Author Name: Jordan Cooper
+Website Name: index.HTML
+Description: This is the content for the website
+in this section all of the pages are within one file.
+created using 
+html5, jquery mobile, styled with CSS
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jordan Cooper's Digital Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.css" />
+<link rel="stylesheet" href="css/themes/portfolio.css" />
+<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="css/styles.css" />
+<script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.js"></script>
+</head>
+
+<body>
+	
+<!-- Page 1 "Home" page  -->
+<div data-role="page" id="home"> 
+
+	<!-- Header -->
+	<div data-role="header">
+		<div id="logo" align="center"> <img src="Images/logo.png"/> </div>
+		<h1>Jordan Cooper</h1>
+	</div>
+	<!-- Navigation -->
+	<div data-role="navbar">
+		<ul>
+			<li><a href="#home" class="ui-btn-active ui-state-persist" data-icon="home">Home</a></li>
+			<li><a href="#aboutMe" data-icon="info">About Me</a></li>
+			<li><a href="#contact" data-icon="star">Contact</a></li>
+		</ul>
+	</div>
+	
+	
+	<!-- Content -->
+	<section role="main" class="ui-content"> this is some text</section>
+	<div class="centerText">
+		<a href="http://webdesign4.georgianc.on.ca/~200199215/Portfolio/home.html" class="ui-btn ui-btn-inline">Switch to Desktop Mode</a>
+	</div>
+	
+	<!-- Footer -->
+	<div data-role="footer" data-position="fixed" id="footer">
+		<h4> Coppyright Jordan Cooper 2014</h4>
+	</div>
+</div>
+
+<!-- Page 2 "About Me" page  -->
+<div data-role="page" id="aboutMe"> 
+
+	<!-- Header -->
+	<div data-role="header">
+		<a href="#"  class="ui-btn ui-icon-arrow-l ui-btn-icon-notext ui-corner-all" data-rel=back ></a>
+		<h1>About Me</h1>
+	</div>
+	<!-- Navigation -->
+	<div data-role="navbar">
+		<ul>
+			<li><a href="#home"    data-icon="home">Home</a></li>
+			<li><a href="#aboutMe" data-icon="info" class="ui-btn-active ui-state-persist">About Me</a></li>
+			<li><a href="#contact" data-icon="star">Contact</a></li>
+		</ul>
+	</div>
+	
+	
+	<!-- Content -->
+		<!-- My Profile Picture --> 
+		<div class="centerText">
+			<div>
+				<img src="../Project 1 - solo - Copy/Images/profile.jpg"> 
+			</div>
+		</div>
+
+		<section role="main" class="ui-content">
+		<!-- Tagline -->
+		<div>
+			<p>I am a computer Programmer Analyst student enrolled in the 3 year program at Georgian College. Currently I am in my 3rd year in the course 
+			and looking forward to graduating in 16 months after 2 semesters of classes and completing 2 more co-op placements</p>
+		</div>
+			
+		<!-- Resume Below this is a section created of unordered lists describing my traits and skills. -->
+				
+		<!-- Web Programming -->
+		<div>
+			<h4> Web Programming</h4>
+		</div>
+		
+		<div>
+			<ul>
+				<li>Created multiple web pages using many different programming languages such as ASP.Net, HTML5, CSS3, PHP and Java Script</li>
+				<li>Added functionality to web pages using C#, Php and SQL (Such as user creation and authentication, and CRUD operations on a database)</li>
+				<li>Experience with Microsoft Visual Studio, Dreamweaver, Eclipse and Windows Azure</li>
+				<li>Experiance creating responsive web pages using <a href="http://foundation.zurb.com/">Foundation </a></li>
+			</ul>
+		</div>
+
+		<!-- Graphics and Game Programming -->
+		<div>
+			<h4>Graphics and Game Programming</h4>
+		</div>
+		
+		<div>
+			<ul>
+				<li>Created graphics in programs such as adobe Photoshop, GIMP 2, and Paint.Net</li>
+				<li>Experienced with Adobe Flash CS6, Aptana and Eclipse</li>
+				<li>Used Graphics programming in a variety of applications (such as games, animations, and graphical information systems)</li>
+				<li>Familiar with Java/Android, Python and Pygame </li>
+				<li>Experiance creating Flash banner adds and animations with Adobe Flash </li>
+			</ul>
+		</div>
+		
+		<!-- Mainframe And COBOL programming --> 
+		<div>
+			<h4>Mainframe and COBOL Programming</h4>
+		</div>
+		
+		<div>
+			<ul>
+				<li>Can create and debug COBOL programs on the PC.</li>
+				<li>Deploy programs to the Mainframe</li>
+				<li>Write moderately complex COBOL programs to process sequential and indexed files</li>
+				<li>Modify existing COBOL programs to enhance their functionality and/or to correct errors in program logic</li>
+			</ul>
+		</div>
+		
+		<!-- Database Management -->
+		<div>
+			<h4>Database Management</h4>
+		</div>
+		<div>
+			<ul>
+				<li>Implementation of minor database security</li>
+				<li>Database server management </li>
+				<li>Creation of databases to be used within other applications</li>
+				<li>Experienced with DB2, MYSQL, and Microsoft SQL manager</li>
+			</ul>
+		</div>
+	</section>
+	<!-- Footer -->
+	<div data-role="footer" data-position="fixed" id="footer">
+		<h4> Coppyright Jordan Cooper 2014</h4>
+	</div>
+
+
+</div>	<!-- End of Page 2 -->		
+
+</body>
+</html>
